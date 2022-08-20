@@ -11,8 +11,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "6",
-    "react-scripts": "^4.0.1",
-    "scss": "^0.2.4"
+    "react-scripts": "^4.0.1"
   },
   "scripts": {
     "start": "sass src/sass/index.scss public/index.css && react-scripts start",
