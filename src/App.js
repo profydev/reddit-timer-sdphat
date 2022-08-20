@@ -2,9 +2,9 @@ import React from 'react';
 
 function App() {
   return (
-    <div>
+    <h2>
       App Placeholder
-    </div>
+    </h2>
   );
 }
 
