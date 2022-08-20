@@ -1,16 +1,15 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Landing from './routes/Landing';
 
 function App() {
   return (
-    <>
-      <h2>
-        App Placeholder
-      </h2>
-      <a href="/a">link</a>
-      <button type="button">button</button>
-      <span>span</span>
-      <div>div</div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/search" />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
