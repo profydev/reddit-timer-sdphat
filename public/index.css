@@ -307,4 +307,35 @@ template {
   display: none;
 }
 
+html, body {
+  color: #93918F;
+  font-family: Montserrat;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #000000;
+  font-family: Bitter;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #0087FF;
+  text-decoration: none;
+}
+
+button {
+  background-color: #FDB755;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  width: 217px;
+  height: 36px;
+}
+
 /*# sourceMappingURL=index.css.map */

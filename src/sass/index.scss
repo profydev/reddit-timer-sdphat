@@ -12,3 +12,34 @@ $header-lg-font-size: 38px;
 $header-md-font-size: 24px;
 $footer-text-font-size: 14px;
 $text-line-height: 27px;
+
+html, body {
+  color: $text-secondary-color;
+  font-family: $text-font;
+}
+
+h1, h2, h3, h4, h5 {
+  color: $text-primary-color;
+  font-family: $title-font;
+}
+
+h1 {  
+  font-size: $header-lg-font-size;
+}
+
+h2 {
+  font-size: $header-md-font-size;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+button {
+  background-color: $button-default-color;
+  color: $button-text-color;
+  text-transform: uppercase;
+  width: 217px;
+  height: 36px;
+}
