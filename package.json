@@ -7,11 +7,11 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.0.11",
     "concurrently": "^7.3.0",
-    "normalize.css": "^8.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "6",
-    "react-scripts": "^4.0.1"
+    "react-scripts": "^4.0.1",
+    "sass": "^1.54.5"
   },
   "scripts": {
     "start": "sass src/sass/index.scss public/index.css && react-scripts start",
