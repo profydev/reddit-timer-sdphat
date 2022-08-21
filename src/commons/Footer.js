@@ -4,7 +4,7 @@ import footerLogo from '../assets/footer_logo.svg';
 
 const Footer = () => (
   <footer className="footer">
-    <Link to="https://profy.dev/employers" className="footer-link">profy.dev</Link>
+    <a href="https://profy.dev/employers" className="footer-link">profy.dev</a>
     <Link to="/" className="footer-logo">
       <img src={footerLogo} style={{ display: 'block' }} alt="Footer logo" />
     </Link>
