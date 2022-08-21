@@ -59,3 +59,23 @@ button {
 .header-link {
   color: $text-secondary-color;
 }
+
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 250px;
+}
+
+.footer-link {
+  color: $text-secondary-color;
+  font-size: $footer-text-font-size;
+}
+
+.footer-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
