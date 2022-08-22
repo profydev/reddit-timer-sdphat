@@ -312,7 +312,7 @@ html, body {
   font-family: Montserrat;
 }
 
-h1, h2, h3, h4, h5 {
+.title, h1, h2, h3, h4, h5 {
   color: #000000;
   font-family: Bitter;
 }
@@ -334,8 +334,13 @@ button {
   background-color: #FDB755;
   color: #FFFFFF;
   text-transform: uppercase;
-  width: 217px;
+  border: none;
+  border-radius: 4px;
   height: 36px;
+  width: 217px;
+  font-weight: normal;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .header {
@@ -368,6 +373,45 @@ button {
 .footer-link {
   color: #93918F;
   font-size: 14px;
+}
+
+.hero-section {
+  max-width: max-content;
+  margin: 27px auto 0;
+}
+
+.hero-section-element, .hero-section-heatmap, .reddit-javascript-link, .hero-section-button, .hero-section-subtitle, .hero-section-title {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.hero-section-title {
+  font-weight: normal;
+  color: #000000;
+  font-family: Bitter;
+  font-size: 38px;
+  height: 46px;
+}
+
+.hero-section-subtitle {
+  height: 20px;
+  margin-top: 20px;
+}
+
+.hero-section-button {
+  margin-top: 45px;
+}
+
+.reddit-javascript-link {
+  color: #93918F;
+  margin-top: 46px;
+  height: 20px;
+}
+
+.hero-section-heatmap {
+  margin-top: 37px;
 }
 
 /*# sourceMappingURL=index.css.map */
