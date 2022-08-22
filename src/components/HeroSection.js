@@ -6,7 +6,7 @@ const HeroSection = () => (
   <div className="hero-section">
     <h1 className="hero-section-title">No reactions to your reddit posts?</h1>
     <span className="hero-section-subtitle">Great timing, great results! Find the best time to post on your subreddit.</span>
-    <Link className="hero-section-button" to="/search">
+    <Link className="hero-section-button" to="/search/javascript">
       <button type="button">SHOW ME THE BEST TIME</button>
     </Link>
     <Link className="reddit-javascript-link" to="/search/javascript">r/javascript</Link>
