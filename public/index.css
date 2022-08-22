@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -312,7 +313,7 @@ html, body {
   font-family: Montserrat;
 }
 
-.title, h1, h2, h3, h4, h5 {
+.title, .info-heading, h1, h2, h3, h4, h5 {
   color: #000000;
   font-family: Bitter;
 }
@@ -412,6 +413,32 @@ button {
 
 .hero-section-heatmap {
   margin-top: 37px;
+}
+
+.info-section {
+  margin: 133px auto 99px;
+  width: 100%;
+  max-width: 738px;
+}
+
+.info-heading {
+  font-size: 24px;
+}
+
+.info-description {
+  margin-top: 12px;
+}
+
+.info-text {
+  line-height: 27px;
+}
+
+.info-list {
+  list-style-type: none;
+  padding: 0;
+}
+.info-list ::before {
+  content: "• ";
 }
 
 /*# sourceMappingURL=index.css.map */

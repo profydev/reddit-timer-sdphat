@@ -128,3 +128,32 @@ button {
   @extend .hero-section-element;
   margin-top: 37px;
 }
+
+
+.info-section {
+  margin: 133px auto 99px;
+  width: 100%;
+  max-width: 738px;
+}
+
+.info-heading {
+  @extend .title;
+  font-size: $md-font-size;
+}
+
+.info-description {
+  margin-top: 12px;
+}
+
+.info-text {
+  $sm-font-size: 16px;
+  line-height: $text-line-height;
+}
+
+.info-list {
+  list-style-type: none;
+  padding: 0;
+  ::before {
+    content: "• ";
+  }
+}
