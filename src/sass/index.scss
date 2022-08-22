@@ -16,6 +16,7 @@ $text-line-height: 27px;
 html, body {
   color: $text-secondary-color;
   font-family: $text-font;
+  scroll-behavior: smooth;
 }
 
 .title {

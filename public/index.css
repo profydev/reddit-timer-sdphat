@@ -311,6 +311,7 @@ template {
 html, body {
   color: #93918F;
   font-family: Montserrat;
+  scroll-behavior: smooth;
 }
 
 .title, .info-heading, h1, h2, h3, h4, h5 {

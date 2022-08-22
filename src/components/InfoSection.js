@@ -3,7 +3,7 @@ import React from 'react';
 const InfoSection = () => (
   <div>
     <div className="info-section">
-      <span className="info-heading">How it works</span>
+      <span id="how-it-works" className="info-heading">How it works</span>
       <ul className="info-description info-list">
         <li className="info-text">We find the 500 top posts from the past year for a subreddit.</li>
         <li className="info-text">The data is visualized in a heatmap grouped by weekday and hour of the day.</li>
@@ -11,7 +11,7 @@ const InfoSection = () => (
       </ul>
     </div>
     <div className="info-section">
-      <span className="info-heading">About</span>
+      <span id="about" className="info-heading">About</span>
       <div className="info-description">
         <span className="info-text">
           This app was created during a course on
