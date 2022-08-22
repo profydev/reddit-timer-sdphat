@@ -338,4 +338,20 @@ button {
   height: 36px;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  height: 100px;
+}
+
+.header-links-wrapper > * + * {
+  margin-left: 25px;
+}
+
+.header-link {
+  color: #93918F;
+}
+
 /*# sourceMappingURL=index.css.map */
