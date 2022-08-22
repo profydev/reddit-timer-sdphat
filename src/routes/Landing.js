@@ -1,9 +1,10 @@
 import React from 'react';
+import HeroSection from '../components/HeroSection';
 
 const Landing = () => (
-  <h2>
-    App placeholder
-  </h2>
+  <div>
+    <HeroSection />
+  </div>
 );
 
 export default Landing;

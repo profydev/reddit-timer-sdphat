@@ -7,10 +7,10 @@ $button-text-color: #FFFFFF;
 $link-color: #0087FF;
 $title-font: Bitter;
 $text-font: Montserrat;
-$text-font-size: 16px;
-$header-lg-font-size: 38px;
-$header-md-font-size: 24px;
-$footer-text-font-size: 14px;
+$xs-font-size: 14px;
+$sm-font-size: 16px;
+$md-font-size: 24px;
+$lg-font-size: 38px;
 $text-line-height: 27px;
 
 html, body {
@@ -18,17 +18,21 @@ html, body {
   font-family: $text-font;
 }
 
-h1, h2, h3, h4, h5 {
+.title {
   color: $text-primary-color;
   font-family: $title-font;
 }
 
+h1, h2, h3, h4, h5 {
+  @extend .title;
+}
+
 h1 {  
-  font-size: $header-lg-font-size;
+  font-size: $lg-font-size;
 }
 
 h2 {
-  font-size: $header-md-font-size;
+  font-size: $md-font-size;
 }
 
 a {
@@ -40,8 +44,13 @@ button {
   background-color: $button-default-color;
   color: $button-text-color;
   text-transform: uppercase;
-  width: 217px;
+  border: none;
+  border-radius: 4px;
   height: 36px;
+  width: 217px;
+  font-weight: normal;
+  font-size: $xs-font-size;
+  cursor: pointer;
 }
 
 .header {
@@ -73,5 +82,49 @@ button {
 
 .footer-link {
   color: $text-secondary-color;
-  font-size: $footer-text-font-size;
+  font-size: $xs-font-size;
+}
+
+.hero-section {
+  max-width: max-content;
+  margin: 27px auto 0;
+}
+
+.hero-section-element {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.hero-section-title {
+  @extend .hero-section-element;
+  font-weight: normal;
+  color: $text-primary-color;
+  font-family: $title-font;
+  font-size: $lg-font-size;
+  height: 46px;
+}
+
+.hero-section-subtitle {
+  @extend .hero-section-element;
+  height: 20px;
+  margin-top: 20px;
+}
+
+.hero-section-button {
+  @extend .hero-section-element;
+  margin-top: 45px;
+}
+
+.reddit-javascript-link {
+  @extend .hero-section-element;
+  color: $text-secondary-color;
+  margin-top: 46px;
+  height: 20px;
+}
+
+.hero-section-heatmap {
+  @extend .hero-section-element;
+  margin-top: 37px;
 }
