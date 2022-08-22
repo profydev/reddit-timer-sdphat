@@ -354,4 +354,20 @@ button {
   color: #93918F;
 }
 
+.footer {
+  height: 100px;
+  width: 100%;
+  max-width: 940px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.footer-link {
+  color: #93918F;
+  font-size: 14px;
+}
+
 /*# sourceMappingURL=index.css.map */
